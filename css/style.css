@@ -1,0 +1,170 @@
+body {
+background:#FF4D00;	
+}
+.container{
+background:#F9F9F9s ;
+max-width: 1000px ;
+margin: 0 auto;
+}
+.nav_list {
+display: flex;
+justify-content: center;
+}
+.nav_item{
+margin-right: 42px;
+list-style: none;
+}
+.top1 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+text-decoration: none ;
+color: #34547A;	
+}
+.top1:hover{
+color: red;	
+}
+.logo1{
+max-width: 600px ;	
+}
+.logo2{
+max-width:400px ;
+}
+.container_satana{
+display: flex;	
+justify-content: space-around  ;
+}
+/*-------about--------*/
+.about {
+background: lightgoldenrodyellow;	
+}
+.title_about {
+padding-top:30px ;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+color: #000000;	
+}
+.text_about {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 164.06%;
+/* or 59px */
+
+text-align: center;
+
+color: #FF0000;
+max-width: 590px;
+margin: 0 auto;	
+}
+.content_about{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 50px ;
+margin-left: 50px;	
+}
+.qwerty {
+max-width: 600px;	
+}	
+.title_content {
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+}
+.glava_about {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: orangered ;
+}
+.item_about {
+list-style: none;	
+}
+.bar {
+width: 438px;
+height: 4.46px;
+background: grey;
+}
+.list_about {
+padding-left: 0 ;	
+}
+.sub {
+	width: 300px;
+height: 4.46px;
+background: red;
+}
+.sub2 {
+	width: 400px;
+height: 4.46px;
+background: red;
+}
+.sub3 {
+	width:250px;
+height: 4.46px;
+background: red;
+}
+.video_title {
+text-align: center;	
+}
+.video_tube {
+padding: 50px 100px 100px 0;
+}
+/*Галерея*/
+.list_gal {
+margin: 0 ;	
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+.item_gal {
+list-style: none ;
+width: 25%;
+margin-bottom: -10px; 	
+}
+.img_gal {
+width: 100% ;	
+}
+footer {
+background: #34547A;	
+}
+.footer2 {
+display: flex;
+justify-content:space-between ;
+align-items: center;
+} 
+.list_footer {
+list-style: none;	
+display: flex;
+margin: 0;
+padding: 0;
+}
+.soc {
+width: 40px;
+margin-right: 20px;
+}
+.soc:last-child {
+}
+.arrowup {
+width: 80px;
+position: fixed;
+bottom: 0;
+right: 0;
+left: 0;
+margin: 20px;
+}
